@@ -1,0 +1,28 @@
+
+CREATE [название таблицы] (столбец1, столбец2, ...)
+DELETE [название таблицы] 
+CLEAR [название таблицы]
+RENAME [старое название] [новое название]
+LIST 
+EXIT 
+
+IN [название таблицы] ADD (значение1, значение2, ...)
+IN [название таблицы] DELETE [ID]
+IN [название таблицы] EDIT [название столбца] [новое значение] [ID]
+IN [название таблицы] SHOW (столбцы)
+
+create students (name, age, class) 
+IN students ADD ("Михаил Баклашa", "15", "11И")
+IN students SHOW (name, age, class) 
+CREATE subjects (name) 
+in subjects add ("ФИЗИКА", "АЛГЕБРА")
+IN stidents SHOW ("name") 
+create scores (student, subject, score);
+in scores addd (1,1,4)
+in scores show(student, subject, score)
+in scores delete(1) 
+
+
+
+
+
